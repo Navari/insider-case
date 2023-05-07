@@ -9,16 +9,6 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-
-/**
- * @property string $status
- * @property int $id
- * @property int $played_week
- * @property int $total_week
- * @property mixed $standing
- * @property mixed $leagueMatches
- * @property mixed $teams
- */
 class League extends Model
 {
     use HasFactory;

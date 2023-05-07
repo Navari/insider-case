@@ -9,12 +9,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Collection;
 
-/**
- * @property mixed $awayMatches
- * @property mixed $homeMatches
- * @property mixed $strength
- * @property mixed $matches
- */
 class Team extends Model
 {
     use HasFactory;

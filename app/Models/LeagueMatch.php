@@ -6,11 +6,6 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
-/**
- * @property int $home_team_goal
- * @property int $away_team_goal
- * @property bool status
- */
 class LeagueMatch extends Model
 {
     use HasFactory;
