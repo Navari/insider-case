@@ -9,14 +9,6 @@ use Illuminate\Http\RedirectResponse;
 
 class SimulationLeagueController extends Controller
 {
-    /**
-     * Handle the incoming request.
-     *
-     * @param League $league
-     * @param int|null $week
-     * @param SimulationService $simulationService
-     * @return RedirectResponse
-     */
     public function __invoke(
         SimulationService $simulationService,
         League            $league,

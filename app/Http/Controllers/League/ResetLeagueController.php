@@ -9,12 +9,6 @@ use Illuminate\Http\RedirectResponse;
 
 class ResetLeagueController extends Controller
 {
-    /**
-     * Handle the incoming request.
-     *
-     * @param League $league
-     * @return RedirectResponse
-     */
     public function __invoke(League $league): RedirectResponse
     {
         LeagueService::reset($league);

@@ -11,13 +11,6 @@ use Illuminate\Contracts\View\View;
 
 class ShowLeagueController extends Controller
 {
-    /**
-     * Handle the incoming request.
-     *
-     * @param League $league
-     * @param PredictionService $predictionService
-     * @return Application|Factory|View
-     */
     public function __invoke(League $league, PredictionService $predictionService): View|Factory|Application
     {
         return view('league.show', [

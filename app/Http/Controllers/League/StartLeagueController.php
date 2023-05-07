@@ -13,15 +13,6 @@ use Illuminate\Http\Request;
 
 class StartLeagueController extends Controller
 {
-    /**
-     * Handle the incoming request.
-     *
-     * @param Request $request
-     * @param League $league
-     * @param TeamRepositoryContract $teamRepository
-     * @param FixtureService $fixtureService
-     * @return RedirectResponse
-     */
     public function __invoke(
         Request $request,
         League $league,
